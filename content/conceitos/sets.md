@@ -22,7 +22,7 @@ Vamos definir um set para utilizarmos em nossos próximos exemplos, veja abaixo:
 Para validar se algo é realmente um set podemos utilizar a função `set?`! Veja o exemplo abaixo:
 
 ```clojure
-(set? desenvolvedores)
+(set? set-desenvolvedores)
 ```
 
 O output será `true`, afinal realmente é um set! Agora se executarmos `(set? lista-desenvolvedores)` será retornado um `false`!
